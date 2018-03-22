@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: .1;
+    height: 100%;
+    display: none;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF0036;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    color: white;
+    cursor: pointer;
+}
+
+.float {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FF0036;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    display: none;
+    z-index: 1;
+    color: white;
+}
+
+.float span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
